@@ -173,6 +173,10 @@ li {
     .title {
         font-size: 40px;
     }
+    .col{
+        display: block!important;
+    }
+
 }
 
 .space-sm {
@@ -300,7 +304,7 @@ button.primary:hover {
     opacity: 0;
     font-size: 14px;
     transition: 0.4s linear;
-    background-color: var(--text-paragraph);
+    background-color: var(--text-white);
     box-sizing: border-box;
     top: -12px;
     left: 50%;
