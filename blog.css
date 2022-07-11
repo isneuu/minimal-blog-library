@@ -287,6 +287,32 @@ button.primary:hover {
     /* border-radius: 4px; */
 }
 
+tr {
+    padding: 0px 20px!importanta;
+}
+
+th, td {
+    padding: 10px 0px;
+}
+
+th {
+    color: var(--text-white);
+}
+
+td {
+    color: var(--text-paragraph);
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    padding: 32px;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    background: var(--quote-background);
+}
+
 .tooltip {
     position: relative;
     border-bottom: 1px dotted #767676;
